@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var repos = require('../lib/repos');
+
+
+repos.rescan('/export/share/bilder');
+
